@@ -53,7 +53,7 @@ namespace OnTopReplica {
         }
 
         private void Menu_ClickThrough_click(object sender, EventArgs e) {
-            ClickThroughEnabled = true;
+            ClickThroughEnabled = !ClickThroughEnabled;
         }
 
         private void Menu_Opacity_opening(object sender, CancelEventArgs e) {
@@ -61,8 +61,21 @@ namespace OnTopReplica {
 				toolStripMenuItem1,
 				toolStripMenuItem2,
 				toolStripMenuItem3,
-				toolStripMenuItem4
-			};
+				toolStripMenuItem4,
+                toolStripMenuItem5,
+                toolStripMenuItem6,
+                toolStripMenuItem7,
+                toolStripMenuItem8,
+                toolStripMenuItem9,
+                toolStripMenuItem10,
+                toolStripMenuItem11,
+                toolStripMenuItem12,
+                toolStripMenuItem13,
+                toolStripMenuItem14,
+                toolStripMenuItem15,
+                toolStripMenuItem16,
+                toolStripMenuItem17
+            };
 
             foreach (ToolStripMenuItem i in items) {
                 if (((double)i.Tag) == this.Opacity)
@@ -150,9 +163,16 @@ namespace OnTopReplica {
             PositionLock = ScreenPosition.BottomRight;
         }
 
-        private void Menu_Reduce_click(object sender, EventArgs e) {
+      private void Menu_Reduce_click(object sender, EventArgs e) {
             //Hide form in a platform specific way
-            Program.Platform.HideForm(this);
+            FullscreenManager.SwitchBack();
+            if(!Program.Platform.IsHidden(this)) {
+                Program.Platform.HideForm(this);
+            }
+            else {
+                EnsureMainFormVisible();
+                //Program.Platform.RestoreForm(this);
+            }
         }
 
         private void Menu_Chrome_click(object sender, EventArgs e) {

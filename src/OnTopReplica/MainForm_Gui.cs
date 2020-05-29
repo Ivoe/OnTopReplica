@@ -72,7 +72,8 @@ namespace OnTopReplica {
         public void EnsureMainFormVisible() {
             //Reset special modes
             FullscreenManager.SwitchBack();
-            ClickThroughEnabled = false;
+            //MEFIX
+            //ClickThroughEnabled = false;
 
             //Restore main form in a platform-dependent method
             Program.Platform.RestoreForm(this);

@@ -381,14 +381,53 @@ Se podrá activar Click a través más tarde</value>
   <data name="MenuOp100TT" xml:space="preserve">
     <value>OnTopReplica será totalmente opaco.</value>
   </data>
-  <data name="MenuOp25TT" xml:space="preserve">
-    <value>Establece OnTopReplica al 25% de opacidad.</value>
+  <data name="MenuOp95TT" xml:space="preserve">
+    <value>Establece OnTopReplica al 95% de opacidad.</value>
   </data>
-  <data name="MenuOp50TT" xml:space="preserve">
+	<data name="MenuOp90TT" xml:space="preserve">
+    <value>Establece OnTopReplica al 90% de opacidad.</value>
+  </data>
+	<data name="MenuOp85TT" xml:space="preserve">
+    <value>Establece OnTopReplica al 85% de opacidad.</value>
+  </data>
+	<data name="MenuOp80TT" xml:space="preserve">
+    <value>Establece OnTopReplica al 80% de opacidad.</value>
+  </data>
+	<data name="MenuOp75TT" xml:space="preserve">
+    <value>Establece OnTopReplica al 75% de opacidad.</value>
+  </data>
+	<data name="MenuOp70TT" xml:space="preserve">
+    <value>Establece OnTopReplica al 70% de opacidad.</value>
+  </data>
+	<data name="MenuOp65TT" xml:space="preserve">
+    <value>Establece OnTopReplica al 65% de opacidad.</value>
+  </data>
+	<data name="MenuOp60TT" xml:space="preserve">
+    <value>Establece OnTopReplica al 60% de opacidad.</value>
+  </data>
+	<data name="MenuOp55TT" xml:space="preserve">
+    <value>Establece OnTopReplica al 55% de opacidad.</value>
+  </data>
+	<data name="MenuOp50TT" xml:space="preserve">
     <value>Establece OnTopReplica al 50% de opacidad.</value>
   </data>
-  <data name="MenuOp75TT" xml:space="preserve">
-    <value>Establece OnTopReplica al 75% de opacidad.</value>
+	<data name="MenuOp45TT" xml:space="preserve">
+    <value>Establece OnTopReplica al 45% de opacidad.</value>
+  </data>
+	<data name="MenuOp40TT" xml:space="preserve">
+    <value>Establece OnTopReplica al 40% de opacidad.</value>
+  </data>
+	<data name="MenuOp35TT" xml:space="preserve">
+    <value>Establece OnTopReplica al 35% de opacidad.</value>
+  </data>
+	<data name="MenuOp30TT" xml:space="preserve">
+    <value>Establece OnTopReplica al 30% de opacidad.</value>
+  </data>
+	<data name="MenuOp25TT" xml:space="preserve">
+    <value>Establece OnTopReplica al 25% de opacidad.</value>
+  </data>
+	<data name="MenuOp20TT" xml:space="preserve">
+    <value>Establece OnTopReplica al 20% de opacidad.</value>
   </data>
   <data name="MenuOpacity" xml:space="preserve">
     <value>Opacidad</value>
