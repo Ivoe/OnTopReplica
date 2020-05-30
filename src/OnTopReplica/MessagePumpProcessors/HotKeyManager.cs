@@ -154,9 +154,13 @@ namespace OnTopReplica.MessagePumpProcessors {
         /// Handles the "Click Through Toggle" hotkey.
         /// </summary>
         void HotKeyClickThroughHandler() {
-            Form.ClickThroughEnabled = !Form.ClickThroughEnabled;
+            if(Form.ThumbnailPanel.IsShowingThumbnail && Form.CurrentThumbnailWindowHandle != null) {
+                Form.ClickThroughEnabled = !Form.ClickThroughEnabled;
+            }
+            else {
+                return;
+            }
         }
-
         /// <summary>
         /// Handles the "clone current" hotkey.
         /// </summary>
