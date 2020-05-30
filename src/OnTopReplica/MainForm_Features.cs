@@ -101,6 +101,15 @@ namespace OnTopReplica {
 
         readonly FormBorderStyle DefaultBorderStyle; // = FormBorderStyle.Sizable; // FormBorderStyle.SizableToolWindow;
 
+        //Hide Borderless from alt+tab
+        protected override CreateParams CreateParams {
+            get {
+                CreateParams pm = base.CreateParams;
+                pm.ExStyle |= 0x80;
+                return pm;
+            }
+        }
+
         public bool IsChromeVisible {
             get {
                 return (FormBorderStyle == DefaultBorderStyle);
