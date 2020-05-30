@@ -117,16 +117,16 @@ namespace OnTopReplica {
             }
         }
 
-        protected override void OnActivated(EventArgs e) {
-            base.OnActivated(e);
+        // protected override void OnActivated(EventArgs e) {
+        //     base.OnActivated(e);
 
             //Deactivate click-through if form is reactivated
-            if (ClickThroughEnabled) {
-                ClickThroughEnabled = false;
-            }
+        //    if (ClickThroughEnabled) {
+        //        ClickThroughEnabled = false;
+        //    }
 
-            Program.Platform.RestoreForm(this);
-        }
+        //    Program.Platform.RestoreForm(this);
+        //}
 
         protected override void OnDeactivate(EventArgs e) {
             base.OnDeactivate(e);
