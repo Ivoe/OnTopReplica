@@ -36,7 +36,7 @@ Get theÂ [latest version](https://github.com/BourbonCrow/OnTopReplica/releases)Â
 * Clone current window:
 <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>C</kbd>
 * Toggle click through
-<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>O</kbd>
+<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>L</kbd>
 
 ## Contributions
 
