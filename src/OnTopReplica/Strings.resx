@@ -459,12 +459,6 @@ You can enable click-through later</value>
 	<data name="MenuOp80TT" xml:space="preserve">
     <value>Sets OnTopReplica to 80% opacity.</value>
   </data>
-	<data name="MenuOp80" xml:space="preserve">
-    <value>80%</value>
-  </data>
-	<data name="MenuOp80TT" xml:space="preserve">
-    <value>Sets OnTopReplica to 80% opacity.</value>
-  </data>
 	<data name="MenuOp75" xml:space="preserve">
     <value>75%</value>
   </data>
