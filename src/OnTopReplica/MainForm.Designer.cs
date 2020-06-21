@@ -267,7 +267,7 @@
             this.toolStripMenuItem3.Name = "toolStripMenuItem3";
             this.toolStripMenuItem3.Size = new System.Drawing.Size(153, 22);
             this.toolStripMenuItem3.Tag = 0.90D;
-            this.toolStripMenuItem3.Text = global::OnTopReplica.Strings.MenuOp50;
+            this.toolStripMenuItem3.Text = global::OnTopReplica.Strings.MenuOp90;
             this.toolStripMenuItem3.ToolTipText = global::OnTopReplica.Strings.MenuOp90TT;
             this.toolStripMenuItem3.Click += new System.EventHandler(this.Menu_Opacity_click);
             // 
