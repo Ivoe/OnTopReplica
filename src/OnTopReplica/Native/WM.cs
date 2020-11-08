@@ -11,6 +11,7 @@ namespace OnTopReplica.Native {
         public const int SIZING = 0x214;
         public const int NCHITTEST = 0x84;
         public const int NCPAINT = 0x0085;
+        public const int MOUSEMOVE = 0x0200;
         public const int LBUTTONDOWN = 0x0201;
         public const int LBUTTONUP = 0x0202;
         public const int LBUTTONDBLCLK = 0x0203;

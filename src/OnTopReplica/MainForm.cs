@@ -43,7 +43,7 @@ namespace OnTopReplica {
                 Location = Point.Empty,
                 Dock = DockStyle.Fill
             };
-            _thumbnailPanel.CloneClick += new EventHandler<CloneClickEventArgs>(Thumbnail_CloneClick);
+            _thumbnailPanel.CloneClickOrMove += Thumbnail_CloneClick;
             Controls.Add(_thumbnailPanel);
 
             //Set native renderer on context menus

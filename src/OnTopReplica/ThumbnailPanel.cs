@@ -358,6 +358,9 @@ namespace OnTopReplica {
             }
 
             base.OnMouseDown(e);
+            if (ReportThumbnailClicks) {
+	            OnCloneClickOrMove(ClientToThumbnail(e.Location), e.Button, false, true);
+            }
         }
 
         protected override void OnMouseUp(MouseEventArgs e) {
@@ -371,6 +374,9 @@ namespace OnTopReplica {
             }
 
             base.OnMouseUp(e);
+            if(ReportThumbnailClicks) {
+                OnCloneClickOrMove(ClientToThumbnail(e.Location), e.Button, false, false);
+            }
         }
 
         protected override void OnMouseLeave(EventArgs e) {
@@ -404,6 +410,9 @@ namespace OnTopReplica {
             }
 
             base.OnMouseMove(e);
+            if (ReportThumbnailClicks && e.Button == MouseButtons.Left) {
+	            OnCloneClickOrMove(ClientToThumbnail(e.Location), e.Button, false, true);
+            }
         }
 
         readonly static Pen RedPen = new Pen(Color.FromArgb(255, Color.Red), 1.5f); //TODO: check width
@@ -438,9 +447,9 @@ namespace OnTopReplica {
                 return;
 
             //Raise clicking event to allow click forwarding
-            if (ReportThumbnailClicks) {
-                OnCloneClick(ClientToThumbnail(e.Location), e.Button, false);
-            }
+            //if (ReportThumbnailClicks) {
+            //    OnCloneClick(ClientToThumbnail(e.Location), e.Button, false);
+            //}
         }
 
         protected override void OnMouseDoubleClick(MouseEventArgs e) {
@@ -450,22 +459,20 @@ namespace OnTopReplica {
                 return;
 
             //Raise double clicking event to allow click forwarding
-            if (ReportThumbnailClicks) {
-                OnCloneClick(ClientToThumbnail(e.Location), e.Button, true);
-            }
+            //if (ReportThumbnailClicks) {
+            //    OnCloneClick(ClientToThumbnail(e.Location), e.Button, true);
+            //}
         }
 
         /// <summary>
         /// Is raised when the thumbnail clone is clicked.
         /// </summary>
-        public event EventHandler<CloneClickEventArgs> CloneClick;
+        public event EventHandler<CloneClickEventArgs> CloneClickOrMove;
 
-        protected virtual void OnCloneClick(Point location, MouseButtons buttons, bool doubleClick){
-            var evt = CloneClick;
-            if(evt != null)
-                evt(this, new CloneClickEventArgs(location, buttons, doubleClick));
+        protected virtual void OnCloneClickOrMove(Point location, MouseButtons buttons, bool doubleClick, bool isDown){
+	        var evt = CloneClickOrMove;
+	        evt?.Invoke(this, new CloneClickEventArgs(location, buttons, doubleClick, isDown));
         }
-
         #endregion
 
         /// <summary>
