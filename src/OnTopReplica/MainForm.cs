@@ -43,7 +43,7 @@ namespace OnTopReplica {
                 Location = Point.Empty,
                 Dock = DockStyle.Fill
             };
-            _thumbnailPanel.CloneClick += new EventHandler<CloneClickEventArgs>(Thumbnail_CloneClick);
+            _thumbnailPanel.CloneClickOrMove += Thumbnail_CloneClick;
             Controls.Add(_thumbnailPanel);
 
             //Set native renderer on context menus
@@ -117,16 +117,16 @@ namespace OnTopReplica {
             }
         }
 
-        protected override void OnActivated(EventArgs e) {
-            base.OnActivated(e);
+        // protected override void OnActivated(EventArgs e) {
+        //     base.OnActivated(e);
 
             //Deactivate click-through if form is reactivated
-            if (ClickThroughEnabled) {
-                ClickThroughEnabled = false;
-            }
+        //    if (ClickThroughEnabled) {
+        //        ClickThroughEnabled = false;
+        //    }
 
-            Program.Platform.RestoreForm(this);
-        }
+        //    Program.Platform.RestoreForm(this);
+        //}
 
         protected override void OnDeactivate(EventArgs e) {
             base.OnDeactivate(e);
@@ -456,6 +456,5 @@ namespace OnTopReplica {
         }
 
         #endregion
-        
     }
 }

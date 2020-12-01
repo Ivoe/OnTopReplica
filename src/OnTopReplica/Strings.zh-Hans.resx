@@ -435,11 +435,59 @@ To return to normal mode anytime, activate OnTopReplica by clicking on the task 
   <data name="MenuOp100TT" xml:space="preserve">
     <value>把OnTopReplica设为完全不透明状态</value>
   </data>
-  <data name="MenuOp25" xml:space="preserve">
-    <value>25%</value>
+  <data name="MenuOp95" xml:space="preserve">
+    <value>95%</value>
   </data>
-  <data name="MenuOp25TT" xml:space="preserve">
-    <value>把OnTopReplica的不透明度设为25%</value>
+  <data name="MenuOp95TT" xml:space="preserve">
+    <value>把OnTopReplica的不透明度设为95%</value>
+  </data>
+  <data name="MenuOp90" xml:space="preserve">
+    <value>90%</value>
+  </data>
+  <data name="MenuOp90TT" xml:space="preserve">
+    <value>把OnTopReplica的不透明度设为90%</value>
+  </data>
+  <data name="MenuOp85" xml:space="preserve">
+    <value>85%</value>
+  </data>
+  <data name="MenuOp85TT" xml:space="preserve">
+    <value>把OnTopReplica的不透明度设为85%</value>
+  </data>
+  <data name="MenuOp80" xml:space="preserve">
+    <value>80%</value>
+  </data>
+  <data name="MenuOp80TT" xml:space="preserve">
+    <value>把OnTopReplica的不透明度设为80%</value>
+  </data>
+  <data name="MenuOp75" xml:space="preserve">
+    <value>75%</value>
+  </data>
+  <data name="MenuOp75TT" xml:space="preserve">
+    <value>把OnTopReplica的不透明度设为75%</value>
+  </data>
+  <data name="MenuOp70" xml:space="preserve">
+    <value>70%</value>
+  </data>
+  <data name="MenuOp70TT" xml:space="preserve">
+    <value>把OnTopReplica的不透明度设为70%</value>
+  </data>
+  <data name="MenuOp65" xml:space="preserve">
+    <value>65%</value>
+  </data>
+  <data name="MenuOp65TT" xml:space="preserve">
+    <value>把OnTopReplica的不透明度设为65%</value>
+  </data>
+  <data name="MenuOp60" xml:space="preserve">
+    <value>60%</value>
+  </data>
+  <data name="MenuOp60TT" xml:space="preserve">
+    <value>把OnTopReplica的不透明度设为60%</value>
+  </data>
+  <data name="MenuOp55" xml:space="preserve">
+    <value>55%</value>
+  </data>
+  <data name="MenuOp55TT" xml:space="preserve">
+    <value>把OnTopReplica的不透明度设为55%</value>
   </data>
   <data name="MenuOp50" xml:space="preserve">
     <value>50%</value>
@@ -447,11 +495,41 @@ To return to normal mode anytime, activate OnTopReplica by clicking on the task 
   <data name="MenuOp50TT" xml:space="preserve">
     <value>把OnTopReplica的不透明度设为50%</value>
   </data>
-  <data name="MenuOp75" xml:space="preserve">
-    <value>75%</value>
+  <data name="MenuOp45" xml:space="preserve">
+    <value>45%</value>
   </data>
-  <data name="MenuOp75TT" xml:space="preserve">
-    <value>把OnTopReplica的不透明度设为75%</value>
+  <data name="MenuOp45TT" xml:space="preserve">
+    <value>把OnTopReplica的不透明度设为45%</value>
+  </data>
+  <data name="MenuOp40" xml:space="preserve">
+    <value>40%</value>
+  </data>
+  <data name="MenuOp40TT" xml:space="preserve">
+    <value>把OnTopReplica的不透明度设为40%</value>
+  </data>
+  <data name="MenuOp35" xml:space="preserve">
+    <value>35%</value>
+  </data>
+  <data name="MenuOp35TT" xml:space="preserve">
+    <value>把OnTopReplica的不透明度设为35%</value>
+  </data>
+  <data name="MenuOp30" xml:space="preserve">
+    <value>30%</value>
+  </data>
+  <data name="MenuOp30TT" xml:space="preserve">
+    <value>把OnTopReplica的不透明度设为30%</value>
+  </data>
+  <data name="MenuOp25" xml:space="preserve">
+    <value>25%</value>
+  </data>
+  <data name="MenuOp25TT" xml:space="preserve">
+    <value>把OnTopReplica的不透明度设为25%</value>
+  </data>
+  <data name="MenuOp20" xml:space="preserve">
+    <value>20%</value>
+  </data>
+  <data name="MenuOp20TT" xml:space="preserve">
+    <value>把OnTopReplica的不透明度设为20%</value>
   </data>
   <data name="MenuOpacity" xml:space="preserve">
     <value>不透明度</value>
@@ -496,7 +574,7 @@ To return to normal mode anytime, activate OnTopReplica by clicking on the task 
     <value>选择是否记忆窗口大小和位置，并在下次运行时恢复</value>
   </data>
   <data name="MenuReduce" xml:space="preserve">
-    <value>最小化</value>
+    <value>显示窗口 / 最小化到托盘</value>
   </data>
   <data name="MenuReduceTT" xml:space="preserve">
     <value>最小化到任务栏上</value>
@@ -651,5 +729,26 @@ OnTopReplica将被关闭以安装更新</value>
   </data>
   <data name="UpdateTitle" xml:space="preserve">
     <value>OnTopReplica更新</value>
+  </data>
+  <data name="RegionsBottom" xml:space="preserve">
+    <value>底部</value>
+  </data>
+  <data name="RegionsLeft" xml:space="preserve">
+    <value>左</value>
+  </data>
+  <data name="RegionsRight" xml:space="preserve">
+    <value>右</value>
+  </data>
+  <data name="RegionsTop" xml:space="preserve">
+    <value>顶部</value>
+  </data>
+  <data name="RegionsX" xml:space="preserve">
+    <value>X</value>
+  </data>
+  <data name="RegionsY" xml:space="preserve">
+    <value>Y</value>
+  </data>
+  <data name="SettingsHotKeyClickThrough" xml:space="preserve">
+    <value>穿过模式切换</value>
   </data>
 </root>

@@ -112,7 +112,7 @@ namespace OnTopReplica {
 
             Update = new UpdateManager(_mainForm);
             Update.UpdateCheckCompleted += new EventHandler<UpdateCheckCompletedEventArgs>(UpdateManager_CheckCompleted);
-            Update.CheckForUpdate();
+            //Update.CheckForUpdate();
         }
 
         /// <summary>

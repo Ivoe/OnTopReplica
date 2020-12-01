@@ -347,23 +347,53 @@ Du kan aktivere gennem klik senere.</value>
   <data name="MenuOp100TT" xml:space="preserve">
     <value>Sæt OnTopReplica til at være helt uigennemsigtig.</value>
   </data>
-  <data name="MenuOp25" xml:space="preserve">
-    <value>25%</value>
+  <data name="MenuOp95TT" xml:space="preserve">
+    <value>Sætter OnTopReplica til 95% uigennemsigtighed.</value>
   </data>
-  <data name="MenuOp25TT" xml:space="preserve">
-    <value>Sætter OnTopReplica til 25% uigennemsigtighed.</value>
+	<data name="MenuOp90TT" xml:space="preserve">
+    <value>Sætter OnTopReplica til 90% uigennemsigtighed.</value>
   </data>
-  <data name="MenuOp50" xml:space="preserve">
-    <value>50%</value>
+	<data name="MenuOp85TT" xml:space="preserve">
+    <value>Sætter OnTopReplica til 85% uigennemsigtighed.</value>
   </data>
-  <data name="MenuOp50TT" xml:space="preserve">
+	<data name="MenuOp80TT" xml:space="preserve">
+    <value>Sætter OnTopReplica til 80% uigennemsigtighed.</value>
+  </data>
+	<data name="MenuOp75TT" xml:space="preserve">
+    <value>Sætter OnTopReplica til 75% uigennemsigtighed.</value>
+  </data>
+	<data name="MenuOp70TT" xml:space="preserve">
+    <value>Sætter OnTopReplica til 70% uigennemsigtighed.</value>
+  </data>
+	<data name="MenuOp65TT" xml:space="preserve">
+    <value>Sætter OnTopReplica til 65% uigennemsigtighed.</value>
+  </data>
+	<data name="MenuOp60TT" xml:space="preserve">
+    <value>Sætter OnTopReplica til 60% uigennemsigtighed.</value>
+  </data>
+	<data name="MenuOp55TT" xml:space="preserve">
+    <value>Sætter OnTopReplica til 55% uigennemsigtighed.</value>
+  </data>
+	<data name="MenuOp50TT" xml:space="preserve">
     <value>Sætter OnTopReplica til 50% uigennemsigtighed.</value>
   </data>
-  <data name="MenuOp75" xml:space="preserve">
-    <value>75%</value>
+	<data name="MenuOp45TT" xml:space="preserve">
+    <value>Sætter OnTopReplica til 45% uigennemsigtighed.</value>
   </data>
-  <data name="MenuOp75TT" xml:space="preserve">
-    <value>Sætter OnTopReplica til 75% uigennemsigtighed.</value>
+	<data name="MenuOp40TT" xml:space="preserve">
+    <value>Sætter OnTopReplica til 40% uigennemsigtighed.</value>
+  </data>
+	<data name="MenuOp35TT" xml:space="preserve">
+    <value>Sætter OnTopReplica til 35% uigennemsigtighed.</value>
+  </data>
+	<data name="MenuOp30TT" xml:space="preserve">
+    <value>Sætter OnTopReplica til 30% uigennemsigtighed.</value>
+  </data>
+	<data name="MenuOp25TT" xml:space="preserve">
+    <value>Sætter OnTopReplica til 25% uigennemsigtighed.</value>
+  </data>
+	<data name="MenuOp20TT" xml:space="preserve">
+    <value>Sætter OnTopReplica til 20% uigennemsigtighed.</value>
   </data>
   <data name="MenuOpacity" xml:space="preserve">
     <value>Uigennemsigtighed</value>

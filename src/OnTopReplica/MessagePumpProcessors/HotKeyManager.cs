@@ -98,6 +98,7 @@ namespace OnTopReplica.MessagePumpProcessors {
 
             RegisterHandler(Settings.Default.HotKeyCloneCurrent, HotKeyCloneHandler);
             RegisterHandler(Settings.Default.HotKeyShowHide, HotKeyShowHideHandler);
+            RegisterHandler(Settings.Default.HotKeyClickThrough, HotKeyClickThroughHandler);
         }
 
         private void RegisterHandler(string spec, HotKeyHandler handler) {
@@ -149,6 +150,17 @@ namespace OnTopReplica.MessagePumpProcessors {
             }
         }
 
+        /// <summary>
+        /// Handles the "Click Through Toggle" hotkey.
+        /// </summary>
+        void HotKeyClickThroughHandler() {
+            if(Form.ThumbnailPanel.IsShowingThumbnail && Form.CurrentThumbnailWindowHandle != null) {
+                Form.ClickThroughEnabled = !Form.ClickThroughEnabled;
+            }
+            else {
+                return;
+            }
+        }
         /// <summary>
         /// Handles the "clone current" hotkey.
         /// </summary>

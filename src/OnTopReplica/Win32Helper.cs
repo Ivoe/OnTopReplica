@@ -10,6 +10,7 @@ namespace OnTopReplica {
 
         #region Injection
 
+        public static bool MouseButtonDown = false;
         /// <summary>Inject a fake left mouse click on a target window, on a location expressed in client coordinates.</summary>
 		/// <param name="window">Target window to click on.</param>
 		/// <param name="clickLocation">Location of the mouse click expressed in client coordiantes of the target window.</param>
@@ -29,38 +30,89 @@ namespace OnTopReplica {
             NPoint clntClickLocation = WindowManagerMethods.ScreenToClient(hChild, scrClickLocation);
 
             if (clickArgs.Buttons == MouseButtons.Left) {
-                if(clickArgs.IsDoubleClick)
-                    InjectDoubleLeftMouseClick(hChild, clntClickLocation);
-                else
-                    InjectLeftMouseClick(hChild, clntClickLocation);
+                if (clickArgs.IsDown && MouseButtonDown == false) {
+                    InjectLeftMouseDown(hChild, clntClickLocation);
+                    MouseButtonDown = true;
+                }
+                else if (clickArgs.IsDown && MouseButtonDown) {
+                    InjectLeftMouseMove(hChild, clntClickLocation);
+                    MouseButtonDown = true;
+                }
+
+                else if (clickArgs.IsDown == false) {
+                    InjectLeftMouseUp(hChild, clntClickLocation);
+
+                    MouseButtonDown = false;
+                }
             }
+
             else if (clickArgs.Buttons == MouseButtons.Right) {
-                if(clickArgs.IsDoubleClick)
-                    InjectDoubleRightMouseClick(hChild, clntClickLocation);
-                else
-                    InjectRightMouseClick(hChild, clntClickLocation);
+	            if (clickArgs.IsDown) {
+		            InjectRightMouseDown(hChild, clntClickLocation);
+	            }
+                else if (clickArgs.IsDown == false) {
+		            InjectRightMouseUp(hChild, clntClickLocation);
+                }
             }
-		}
+        }
+
+        private static void InjectLeftMouseMove(IntPtr child, NPoint clientLocation) {
+	        IntPtr lParamClickLocation = MessagingMethods.MakeLParam(clientLocation.X, clientLocation.Y);
+	        MessagingMethods.PostMessage(child, WM.MOUSEMOVE, new IntPtr(MK.LBUTTON), lParamClickLocation);
+#if DEBUG
+	        System.Diagnostics.Debug.WriteLine("InjectLeftMouseMove #" + child.ToString() + " at " + clientLocation.ToString());
+#endif
+        }
+
+        private static void InjectLeftMouseDown(IntPtr child, NPoint clientLocation) {
+	        IntPtr lParamClickLocation = MessagingMethods.MakeLParam(clientLocation.X, clientLocation.Y);
+
+	        MessagingMethods.PostMessage(child, WM.LBUTTONDOWN, new IntPtr(MK.LBUTTON), lParamClickLocation);
+#if DEBUG
+	        System.Diagnostics.Debug.WriteLine("InjectLeftMouseDownMove #" + child.ToString() + " at " + clientLocation.ToString());
+#endif
+        }
+
+        private static void InjectLeftMouseUp(IntPtr child, NPoint clientLocation) {
+	        IntPtr lParamClickLocation = MessagingMethods.MakeLParam(clientLocation.X, clientLocation.Y);
+
+	        MessagingMethods.PostMessage(child, WM.LBUTTONUP, new IntPtr(MK.LBUTTON), lParamClickLocation);
+	        
+#if DEBUG
+	        System.Diagnostics.Debug.WriteLine("InjectLeftMouseUpMove #" + child.ToString() + " at " + clientLocation.ToString());
+#endif
+        }
 
 		private static void InjectLeftMouseClick(IntPtr child, NPoint clientLocation) {
 			IntPtr lParamClickLocation = MessagingMethods.MakeLParam(clientLocation.X, clientLocation.Y);
 
             MessagingMethods.PostMessage(child, WM.LBUTTONDOWN, new IntPtr(MK.LBUTTON), lParamClickLocation);
             MessagingMethods.PostMessage(child, WM.LBUTTONUP, new IntPtr(MK.LBUTTON), lParamClickLocation);
+            //IntPtr lParamClickLocation2 = MessagingMethods.MakeLParam(clientLocation.X+100, clientLocation.Y+100);
 
+            //MessagingMethods.PostMessage(child, WM.MOUSEMOVE, new IntPtr(MK.LBUTTON), lParamClickLocation2);
 #if DEBUG
             System.Diagnostics.Debug.WriteLine("Left click on window #" + child.ToString() + " at " + clientLocation.ToString());
 #endif
 		}
 
-        private static void InjectRightMouseClick(IntPtr child, NPoint clientLocation) {
+        private static void InjectRightMouseUp(IntPtr child, NPoint clientLocation) {
             IntPtr lParamClickLocation = MessagingMethods.MakeLParam(clientLocation.X, clientLocation.Y);
 
-            MessagingMethods.PostMessage(child, WM.RBUTTONDOWN, new IntPtr(MK.RBUTTON), lParamClickLocation);
             MessagingMethods.PostMessage(child, WM.RBUTTONUP, new IntPtr(MK.RBUTTON), lParamClickLocation);
 
 #if DEBUG
-            System.Diagnostics.Debug.WriteLine("Right click on window #" + child.ToString() + " at " + clientLocation.ToString());
+            System.Diagnostics.Debug.WriteLine("InjectRightMouseUp #" + child.ToString() + " at " + clientLocation.ToString());
+#endif
+        }
+
+        private static void InjectRightMouseDown(IntPtr child, NPoint clientLocation) {
+            IntPtr lParamClickLocation = MessagingMethods.MakeLParam(clientLocation.X, clientLocation.Y);
+
+            MessagingMethods.PostMessage(child, WM.RBUTTONDOWN, new IntPtr(MK.RBUTTON), lParamClickLocation);
+
+#if DEBUG
+            System.Diagnostics.Debug.WriteLine("InjectRightMouseDown #" + child.ToString() + " at " + clientLocation.ToString());
 #endif
         }
 

@@ -282,7 +282,7 @@
     <value>模式</value>
   </data>
   <data name="FullscreenModeAlwaysOnTop" xml:space="preserve">
-    <value>总在置顶</value>
+    <value>总是置顶</value>
   </data>
   <data name="FullscreenModeAlwaysOnTopTT" xml:space="preserve">
     <value>强制OnTopReplica置顶。</value>
@@ -429,26 +429,104 @@
   <data name="MenuOp100TT" xml:space="preserve">
     <value>设置OnTopReplica不透明。</value>
   </data>
-  <data name="MenuOp25" xml:space="preserve">
-    <value>25%</value>
+  <data name="MenuOp95" xml:space="preserve">
+    <value>95%</value>
   </data>
-  <data name="MenuOp25TT" xml:space="preserve">
-    <value>设置OnTopReplica有25%透明度。</value>
+  <data name="MenuOp95TT" xml:space="preserve">
+    <value>设置OnTopReplica有95%不透明。</value>
   </data>
-  <data name="MenuOp50" xml:space="preserve">
-    <value>50%</value>
+  <data name="MenuOp90" xml:space="preserve">
+    <value>90%</value>
   </data>
-  <data name="MenuOp50TT" xml:space="preserve">
-    <value>设置OnTopReplica有50%透明度。</value>
+  <data name="MenuOp90TT" xml:space="preserve">
+    <value>设置OnTopReplica有90%不透明。</value>
+  </data>
+  <data name="MenuOp85" xml:space="preserve">
+    <value>85%</value>
+  </data>
+  <data name="MenuOp85TT" xml:space="preserve">
+    <value>设置OnTopReplica有85%不透明。</value>
+  </data>
+  <data name="MenuOp80" xml:space="preserve">
+    <value>80%</value>
+  </data>
+  <data name="MenuOp80TT" xml:space="preserve">
+    <value>设置OnTopReplica有80%不透明。</value>
   </data>
   <data name="MenuOp75" xml:space="preserve">
     <value>75%</value>
   </data>
   <data name="MenuOp75TT" xml:space="preserve">
-    <value>设置OnTopReplica有75%透明度。</value>
+    <value>设置OnTopReplica有75%不透明。</value>
+  </data>
+  <data name="MenuOp70" xml:space="preserve">
+    <value>70%</value>
+  </data>
+  <data name="MenuOp70TT" xml:space="preserve">
+    <value>设置OnTopReplica有70%不透明。</value>
+  </data>
+  <data name="MenuOp65" xml:space="preserve">
+    <value>65%</value>
+  </data>
+  <data name="MenuOp65TT" xml:space="preserve">
+    <value>设置OnTopReplica有65%不透明。</value>
+  </data>
+  <data name="MenuOp60" xml:space="preserve">
+    <value>60%</value>
+  </data>
+  <data name="MenuOp60TT" xml:space="preserve">
+    <value>设置OnTopReplica有60%不透明。</value>
+  </data>
+  <data name="MenuOp55" xml:space="preserve">
+    <value>55%</value>
+  </data>
+  <data name="MenuOp55TT" xml:space="preserve">
+    <value>设置OnTopReplica有55%不透明。</value>
+  </data>
+  <data name="MenuOp50" xml:space="preserve">
+    <value>50%</value>
+  </data>
+  <data name="MenuOp50TT" xml:space="preserve">
+    <value>设置OnTopReplica有50%不透明。</value>
+  </data>
+  <data name="MenuOp45" xml:space="preserve">
+    <value>45%</value>
+  </data>
+  <data name="MenuOp45TT" xml:space="preserve">
+    <value>设置OnTopReplica有45%不透明。</value>
+  </data>
+  <data name="MenuOp40" xml:space="preserve">
+    <value>40%</value>
+  </data>
+  <data name="MenuOp40TT" xml:space="preserve">
+    <value>设置OnTopReplica有40%不透明。</value>
+  </data>
+  <data name="MenuOp35" xml:space="preserve">
+    <value>35%</value>
+  </data>
+  <data name="MenuOp35TT" xml:space="preserve">
+    <value>设置OnTopReplica有35%不透明。</value>
+  </data>
+  <data name="MenuOp30" xml:space="preserve">
+    <value>30%</value>
+  </data>
+  <data name="MenuOp30TT" xml:space="preserve">
+    <value>设置OnTopReplica有30%不透明。</value>
+  </data>
+  <data name="MenuOp25" xml:space="preserve">
+    <value>25%</value>
+  </data>
+  <data name="MenuOp25TT" xml:space="preserve">
+    <value>设置OnTopReplica有25%不透明。</value>
+  </data>
+  <data name="MenuOp20" xml:space="preserve">
+    <value>20%</value>
+  </data>
+  <data name="MenuOp20TT" xml:space="preserve">
+    <value>设置OnTopReplica有20%不透明。</value>
   </data>
   <data name="MenuOpacity" xml:space="preserve">
-    <value>透明度</value>
+    <value>不透明度</value>
   </data>
   <data name="MenuOpen" xml:space="preserve">
     <value>打开</value>
@@ -490,7 +568,7 @@
     <value>切换OnTopReplica是否存储最后的位置和大小以便下次启动时使用。</value>
   </data>
   <data name="MenuReduce" xml:space="preserve">
-    <value>最小化</value>
+    <value>显示窗口 / 最小化到托盘</value>
   </data>
   <data name="MenuReduceTT" xml:space="preserve">
     <value>最小化OnTopReplica至任务栏或托盘。</value>
@@ -661,5 +739,8 @@ OnTopReplica会关闭并应用更新。</value>
   </data>
   <data name="RegionsY" xml:space="preserve">
     <value>Y</value>
+  </data>
+  <data name="SettingsHotKeyClickThrough" xml:space="preserve">
+    <value>穿透模式切换</value>
   </data>
 </root>

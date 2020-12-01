@@ -456,23 +456,53 @@ Você pode ativar 'click-trough' mais tarde</value>
   <data name="MenuOp100TT" xml:space="preserve">
     <value>Define OnTopReplica como completamente opaca.</value>    
   </data>
-  <data name="MenuOp25" xml:space="preserve">
-    <value>25%</value>
+  <data name="MenuOp95TT" xml:space="preserve">
+    <value>Define OnTopReplica para 95% de opacidade.</value>    
   </data>
-  <data name="MenuOp25TT" xml:space="preserve">
-    <value>Define OnTopReplica para 25% de opacidade.</value>    
+	<data name="MenuOp90TT" xml:space="preserve">
+    <value>Define OnTopReplica para 90% de opacidade.</value>    
   </data>
-  <data name="MenuOp50" xml:space="preserve">
-    <value>50%</value>
+	<data name="MenuOp85TT" xml:space="preserve">
+    <value>Define OnTopReplica para 85% de opacidade.</value>    
   </data>
-  <data name="MenuOp50TT" xml:space="preserve">
+	<data name="MenuOp80TT" xml:space="preserve">
+    <value>Define OnTopReplica para 80% de opacidade.</value>    
+  </data>
+	<data name="MenuOp75TT" xml:space="preserve">
+    <value>Define OnTopReplica para 75% de opacidade.</value>    
+  </data>
+	<data name="MenuOp70TT" xml:space="preserve">
+    <value>Define OnTopReplica para 70% de opacidade.</value>    
+  </data>
+	<data name="MenuOp65TT" xml:space="preserve">
+    <value>Define OnTopReplica para 65% de opacidade.</value>    
+  </data>
+	<data name="MenuOp60TT" xml:space="preserve">
+    <value>Define OnTopReplica para 60% de opacidade.</value>    
+  </data>
+	<data name="MenuOp55TT" xml:space="preserve">
+    <value>Define OnTopReplica para 55% de opacidade.</value>    
+  </data>
+	<data name="MenuOp50TT" xml:space="preserve">
     <value>Define OnTopReplica para 50% de opacidade.</value>    
   </data>
-  <data name="MenuOp75" xml:space="preserve">
-    <value>75%</value>
+	<data name="MenuOp45TT" xml:space="preserve">
+    <value>Define OnTopReplica para 45% de opacidade.</value>    
   </data>
-  <data name="MenuOp75TT" xml:space="preserve">
-    <value>Define OnTopReplica para 75% de opacidade.</value>
+	<data name="MenuOp40TT" xml:space="preserve">
+    <value>Define OnTopReplica para 40% de opacidade.</value>    
+  </data>
+	<data name="MenuOp35TT" xml:space="preserve">
+    <value>Define OnTopReplica para 35% de opacidade.</value>    
+  </data>
+	<data name="MenuOp30TT" xml:space="preserve">
+    <value>Define OnTopReplica para 30% de opacidade.</value>    
+  </data>
+	<data name="MenuOp25TT" xml:space="preserve">
+    <value>Define OnTopReplica para 25% de opacidade.</value>    
+  </data>
+	<data name="MenuOp20TT" xml:space="preserve">
+    <value>Define OnTopReplica para 20% de opacidade.</value>    
   </data>
   <data name="MenuOpacity" xml:space="preserve">
     <value>Opacidade</value>

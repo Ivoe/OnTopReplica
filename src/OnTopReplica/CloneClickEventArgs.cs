@@ -14,6 +14,8 @@ namespace OnTopReplica {
 
 		public bool IsDoubleClick { get; set; }
 
+		public bool IsDown { get; set; }
+
         public MouseButtons Buttons { get; set; }
 
 		public CloneClickEventArgs(Point location, MouseButtons buttons) {
@@ -22,10 +24,11 @@ namespace OnTopReplica {
 			IsDoubleClick = false;
 		}
 
-		public CloneClickEventArgs(Point location, MouseButtons buttons, bool doubleClick) {
+		public CloneClickEventArgs(Point location, MouseButtons buttons, bool doubleClick, bool isDown = false) {
 			ClientClickLocation = location;
             Buttons = buttons;
 			IsDoubleClick = doubleClick;
+			IsDown = isDown;
 		}
 
 	}

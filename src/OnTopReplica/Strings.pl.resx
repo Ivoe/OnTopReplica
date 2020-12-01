@@ -423,23 +423,53 @@ Możesz włączyć kliknij-przez później</value>
   <data name="MenuOp100TT" xml:space="preserve">
     <value>Ustawia OnTopReplica jako całkowicie nieprzeźroczyste.</value>
   </data>
-  <data name="MenuOp25" xml:space="preserve">
-    <value>25%</value>
+  <data name="MenuOp95TT" xml:space="preserve">
+    <value>Ustawia przeźroczystość OnTopReplica na 95%.</value>
   </data>
-  <data name="MenuOp25TT" xml:space="preserve">
-    <value>Ustawia przeźroczystość OnTopReplica na 25%.</value>
+	<data name="MenuOp90TT" xml:space="preserve">
+    <value>Ustawia przeźroczystość OnTopReplica na 90%.</value>
   </data>
-  <data name="MenuOp50" xml:space="preserve">
-    <value>50%</value>
+	<data name="MenuOp85TT" xml:space="preserve">
+    <value>Ustawia przeźroczystość OnTopReplica na 85%.</value>
   </data>
-  <data name="MenuOp50TT" xml:space="preserve">
+	<data name="MenuOp80TT" xml:space="preserve">
+    <value>Ustawia przeźroczystość OnTopReplica na 80%.</value>
+  </data>
+	<data name="MenuOp75TT" xml:space="preserve">
+    <value>Ustawia przeźroczystość OnTopReplica na 75%.</value>
+  </data>
+	<data name="MenuOp70TT" xml:space="preserve">
+    <value>Ustawia przeźroczystość OnTopReplica na 70%.</value>
+  </data>
+	<data name="MenuOp65TT" xml:space="preserve">
+    <value>Ustawia przeźroczystość OnTopReplica na 65%.</value>
+  </data>
+	<data name="MenuOp60TT" xml:space="preserve">
+    <value>Ustawia przeźroczystość OnTopReplica na 60%.</value>
+  </data>
+	<data name="MenuOp55TT" xml:space="preserve">
+    <value>Ustawia przeźroczystość OnTopReplica na 55%.</value>
+  </data>
+	<data name="MenuOp50TT" xml:space="preserve">
     <value>Ustawia przeźroczystość OnTopReplica na 50%.</value>
   </data>
-  <data name="MenuOp75" xml:space="preserve">
-    <value>75%</value>
+	<data name="MenuOp45TT" xml:space="preserve">
+    <value>Ustawia przeźroczystość OnTopReplica na 45%.</value>
   </data>
-  <data name="MenuOp75TT" xml:space="preserve">
-    <value>Ustawia przeźroczystość OnTopReplica na 75%.</value>
+	<data name="MenuOp40TT" xml:space="preserve">
+    <value>Ustawia przeźroczystość OnTopReplica na 40%.</value>
+  </data>
+	<data name="MenuOp35TT" xml:space="preserve">
+    <value>Ustawia przeźroczystość OnTopReplica na 35%.</value>
+  </data>
+	<data name="MenuOp30TT" xml:space="preserve">
+    <value>Ustawia przeźroczystość OnTopReplica na 30%.</value>
+  </data>
+	<data name="MenuOp25TT" xml:space="preserve">
+    <value>Ustawia przeźroczystość OnTopReplica na 25%.</value>
+  </data>
+	<data name="MenuOp20TT" xml:space="preserve">
+    <value>Ustawia przeźroczystość OnTopReplica na 20%.</value>
   </data>
   <data name="MenuOpacity" xml:space="preserve">
     <value>Przeźroczystość</value>

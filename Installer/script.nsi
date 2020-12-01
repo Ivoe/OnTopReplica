@@ -4,10 +4,10 @@
 !include "DotNet.nsh"
 
 # INIT
-Name "OnTopReplica"
-InstallDir "$LOCALAPPDATA\OnTopReplica"
+Name "OnTopReplica 3.5.2"
+InstallDir "$PROGRAMFILES\OnTopReplica"
 OutFile "OnTopReplica-Setup.exe"
-RequestExecutionLevel user
+RequestExecutionLevel admin
 
 # REFS
 !define REG_UNINSTALL "Software\Microsoft\Windows\CurrentVersion\Uninstall\OnTopReplica"
@@ -20,12 +20,12 @@ RequestExecutionLevel user
 # GRAPHICS
 !define MUI_ICON "..\OriginalAssets\new-flat-icon.ico"
 !define MUI_UNICON "..\OriginalAssets\new-flat-icon.ico"
-!define MUI_HEADERIMAGE
+!define MUI_HEADERIMAGE "..\OriginalAssets\NSI-Banner.bmp"
 !define MUI_HEADERIMAGE_RIGHT
-!define MUI_HEADERIMAGE_BITMAP "header.bmp"
-!define MUI_HEADERIMAGE_UNBITMAP "header.bmp"
-#!define MUI_WELCOMEFINISHPAGE_BITMAP "banner.bmp"
-#!define MUI_UNWELCOMEFINISHPAGE_BITMAP "banner.bmp"
+!define MUI_HEADERIMAGE_BITMAP "..\OriginalAssets\NSI-Header.bmp"
+!define MUI_HEADERIMAGE_UNBITMAP "..\OriginalAssets\NSI-Header.bmp"
+!define MUI_WELCOMEFINISHPAGE_BITMAP "..\OriginalAssets\NSI-Banner.bmp"
+!define MUI_UNWELCOMEFINISHPAGE_BITMAP "..\OriginalAssets\NSI-Banner.bmp"
 
 # TEXT AND SETTINGS
 !define MUI_PAGE_HEADER_TEXT "OnTopReplica"
@@ -39,6 +39,7 @@ RequestExecutionLevel user
 
 # PAGE DEFINITIONS
 !insertmacro MUI_PAGE_WELCOME
+!insertmacro MUI_PAGE_DIRECTORY
 !insertmacro MUI_PAGE_INSTFILES
 !insertmacro MUI_PAGE_FINISH
 
@@ -108,31 +109,31 @@ Section "!OnTopReplica" OnTopReplica
 	Delete "$INSTDIR\VistaControls.dll"
 	
 	;Main installation
-	File "..\OnTopReplica\bin\Release\OnTopReplica.exe"
-	File "..\OnTopReplica\bin\Release\OnTopReplica.exe.config"
-	File "..\OnTopReplica\bin\Release\WindowsFormsAero.dll"
+	File "..\src\OnTopReplica\bin\Release\OnTopReplica.exe"
+	File "..\src\OnTopReplica\bin\Release\OnTopReplica.exe.config"
+	File "..\src\OnTopReplica\bin\Release\WindowsFormsAero.dll"
 	
 	;Text stuff
-	File "..\OnTopReplica\bin\Release\CREDITS.txt"
-	File "..\OnTopReplica\bin\Release\LICENSE.txt"
+	File "..\src\OnTopReplica\bin\Release\CREDITS.txt"
+	File "..\src\OnTopReplica\bin\Release\LICENSE.txt"
 	
 	;Post installer
-	File "PostInstaller\PostInstaller\bin\Release\PostInstaller.exe"
-	File "PostInstaller\PostInstaller\bin\Release\PostInstaller.exe.config"
+	File "..\src\PostInstaller\bin\Release\PostInstaller.exe"
+	File "..\src\PostInstaller\bin\Release\PostInstaller.exe.config"
 	
 	;Install localization files
 	SetOutPath "$INSTDIR\it"
-	File "..\OnTopReplica\bin\Release\it\OnTopReplica.resources.dll"
+	File "..\src\OnTopReplica\bin\Release\it\OnTopReplica.resources.dll"
 	SetOutPath "$INSTDIR\cs"
-	File "..\OnTopReplica\bin\Release\cs\OnTopReplica.resources.dll"
+	File "..\src\OnTopReplica\bin\Release\cs\OnTopReplica.resources.dll"
 	SetOutPath "$INSTDIR\da"
-	File "..\OnTopReplica\bin\Release\da\OnTopReplica.resources.dll"
+	File "..\src\OnTopReplica\bin\Release\da\OnTopReplica.resources.dll"
 	SetOutPath "$INSTDIR\de"
-	File "..\OnTopReplica\bin\Release\de\OnTopReplica.resources.dll"
+	File "..\src\OnTopReplica\bin\Release\de\OnTopReplica.resources.dll"
 	SetOutPath "$INSTDIR\es"
-	File "..\OnTopReplica\bin\Release\es\OnTopReplica.resources.dll"
+	File "..\src\OnTopReplica\bin\Release\es\OnTopReplica.resources.dll"
 	SetOutPath "$INSTDIR\pl"
-	File "..\OnTopReplica\bin\Release\pl\OnTopReplica.resources.dll"
+	File "..\src\OnTopReplica\bin\Release\pl\OnTopReplica.resources.dll"
 		
 	;Uninstaller
 	WriteUninstaller "$INSTDIR\${UNINSTALLER_NAME}"

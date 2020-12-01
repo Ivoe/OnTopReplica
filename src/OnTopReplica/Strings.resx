@@ -435,23 +435,101 @@ You can enable click-through later</value>
   <data name="MenuOp100TT" xml:space="preserve">
     <value>Sets OnTopReplica to be completely opaque.</value>
   </data>
-  <data name="MenuOp25" xml:space="preserve">
-    <value>25%</value>
+	<data name="MenuOp95" xml:space="preserve">
+    <value>95%</value>
   </data>
-  <data name="MenuOp25TT" xml:space="preserve">
-    <value>Sets OnTopReplica to 25% opacity.</value>
+	<data name="MenuOp95TT" xml:space="preserve">
+    <value>Sets OnTopReplica to 95% opacity.</value>
   </data>
-  <data name="MenuOp50" xml:space="preserve">
-    <value>50%</value>
+	<data name="MenuOp90" xml:space="preserve">
+    <value>90%</value>
   </data>
-  <data name="MenuOp50TT" xml:space="preserve">
-    <value>Sets OnTopReplica to 50% opacity.</value>
+	<data name="MenuOp90TT" xml:space="preserve">
+    <value>Sets OnTopReplica to 90% opacity.</value>
   </data>
-  <data name="MenuOp75" xml:space="preserve">
+	<data name="MenuOp85" xml:space="preserve">
+    <value>85%</value>
+  </data>
+	<data name="MenuOp85TT" xml:space="preserve">
+    <value>Sets OnTopReplica to 85% opacity.</value>
+  </data>
+	<data name="MenuOp80" xml:space="preserve">
+    <value>80%</value>
+  </data>
+	<data name="MenuOp80TT" xml:space="preserve">
+    <value>Sets OnTopReplica to 80% opacity.</value>
+  </data>
+	<data name="MenuOp75" xml:space="preserve">
     <value>75%</value>
   </data>
-  <data name="MenuOp75TT" xml:space="preserve">
+	<data name="MenuOp75TT" xml:space="preserve">
     <value>Sets OnTopReplica to 75% opacity.</value>
+  </data>
+	<data name="MenuOp70" xml:space="preserve">
+    <value>70%</value>
+  </data>
+	<data name="MenuOp70TT" xml:space="preserve">
+    <value>Sets OnTopReplica to 70% opacity.</value>
+  </data>
+	<data name="MenuOp65" xml:space="preserve">
+    <value>65%</value>
+  </data>
+	<data name="MenuOp65TT" xml:space="preserve">
+    <value>Sets OnTopReplica to 65% opacity.</value>
+  </data>
+	<data name="MenuOp60" xml:space="preserve">
+    <value>60%</value>
+  </data>
+	<data name="MenuOp60TT" xml:space="preserve">
+    <value>Sets OnTopReplica to 60% opacity.</value>
+  </data>
+	<data name="MenuOp55" xml:space="preserve">
+    <value>55%</value>
+  </data>
+	<data name="MenuOp55TT" xml:space="preserve">
+    <value>Sets OnTopReplica to 55% opacity.</value>
+  </data>
+	<data name="MenuOp50" xml:space="preserve">
+    <value>50%</value>
+  </data>
+	<data name="MenuOp50TT" xml:space="preserve">
+    <value>Sets OnTopReplica to 50% opacity.</value>
+  </data>
+	<data name="MenuOp45" xml:space="preserve">
+    <value>45%</value>
+  </data>
+	<data name="MenuOp45TT" xml:space="preserve">
+    <value>Sets OnTopReplica to 45% opacity.</value>
+  </data>
+	<data name="MenuOp40" xml:space="preserve">
+    <value>40%</value>
+  </data>
+	<data name="MenuOp40TT" xml:space="preserve">
+    <value>Sets OnTopReplica to 40% opacity.</value>
+  </data>
+	<data name="MenuOp35" xml:space="preserve">
+    <value>35%</value>
+  </data>
+	<data name="MenuOp35TT" xml:space="preserve">
+    <value>Sets OnTopReplica to 35% opacity.</value>
+  </data>
+	<data name="MenuOp30" xml:space="preserve">
+    <value>30%</value>
+  </data>
+	<data name="MenuOp30TT" xml:space="preserve">
+    <value>Sets OnTopReplica to 30% opacity.</value>
+  </data>
+	<data name="MenuOp25" xml:space="preserve">
+    <value>25%</value>
+  </data>
+	<data name="MenuOp25TT" xml:space="preserve">
+    <value>Sets OnTopReplica to 25% opacity.</value>
+  </data>
+	<data name="MenuOp20" xml:space="preserve">
+    <value>20%</value>
+  </data>
+	<data name="MenuOp20TT" xml:space="preserve">
+    <value>Sets OnTopReplica to 20% opacity.</value>
   </data>
   <data name="MenuOpacity" xml:space="preserve">
     <value>Opacity</value>
@@ -496,7 +574,7 @@ You can enable click-through later</value>
     <value>Toggles whether OnTopReplica should store its last position and size and use them when it is restarted.</value>
   </data>
   <data name="MenuReduce" xml:space="preserve">
-    <value>Minimize</value>
+    <value>Show / Hide</value>
   </data>
   <data name="MenuReduceTT" xml:space="preserve">
     <value>Minimizes OnTopReplica to the task bar (or the tray).</value>
@@ -577,7 +655,7 @@ You can enable click-through later</value>
     <value>Right-click here to start...</value>
   </data>
   <data name="SettingsHotKeyClone" xml:space="preserve">
-    <value>Clone current window</value>
+    <value>Clone Window</value>
   </data>
   <data name="SettingsHotKeyDescription" xml:space="preserve">
     <value>These system-wide shortcuts can also be used when OnTopReplica is not in focus.</value>
@@ -586,7 +664,7 @@ You can enable click-through later</value>
     <value>Show/Hide</value>
   </data>
   <data name="SettingsHotKeyTitle" xml:space="preserve">
-    <value>Hot keys:</value>
+    <value>Hotkeys:</value>
   </data>
   <data name="SettingsLanguageTitle" xml:space="preserve">
     <value>Language:</value>
@@ -669,5 +747,8 @@ OnTopReplica will be closed and the update installed.</value>
   </data>
   <data name="RegionsY" xml:space="preserve">
     <value>Y</value>
+  </data>
+	<data name="SettingsHotKeyClickThrough" xml:space="preserve">
+    <value>Click Through Toggle</value>
   </data>
 </root>

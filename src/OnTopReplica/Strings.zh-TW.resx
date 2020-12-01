@@ -169,7 +169,7 @@
     <value>準備更新</value>
   </data>
   <data name="MenuOpacity" xml:space="preserve">
-    <value>透明度</value>
+    <value>不透明度</value>
   </data>
   <data name="AboutTranslators" xml:space="preserve">
     <value>翻譯者：{0}</value>
@@ -228,14 +228,53 @@
   <data name="GroupSwitchModeStatusDisabled" xml:space="preserve">
     <value>同時選擇多個視窗來打開。</value>
   </data>
+  <data name="MenuOp95TT" xml:space="preserve">
+    <value>設定不透明度為 95%。</value>
+  </data>
+  <data name="MenuOp90TT" xml:space="preserve">
+    <value>設定不透明度為 90%。</value>
+  </data>
+  <data name="MenuOp85TT" xml:space="preserve">
+    <value>設定不透明度為 85%。</value>
+  </data>
+  <data name="MenuOp80TT" xml:space="preserve">
+    <value>設定不透明度為 80%。</value>
+  </data>
   <data name="MenuOp75TT" xml:space="preserve">
-    <value>設定透明度為 75%。</value>
+    <value>設定不透明度為 75%。</value>
+  </data>
+  <data name="MenuOp70TT" xml:space="preserve">
+    <value>設定不透明度為 70%。</value>
+  </data>
+  <data name="MenuOp65TT" xml:space="preserve">
+    <value>設定不透明度為 65%。</value>
+  </data>
+  <data name="MenuOp60TT" xml:space="preserve">
+    <value>設定不透明度為 60%。</value>
+  </data>
+  <data name="MenuOp55TT" xml:space="preserve">
+    <value>設定不透明度為 55%。</value>
   </data>
   <data name="MenuOp50TT" xml:space="preserve">
-    <value>設定透明度為 50%。</value>
+    <value>設定不透明度為 50%。</value>
+  </data>
+  <data name="MenuOp45TT" xml:space="preserve">
+    <value>設定不透明度為 45%。</value>
+  </data>
+  <data name="MenuOp40TT" xml:space="preserve">
+    <value>設定不透明度為 40%。</value>
+  </data>
+  <data name="MenuOp35TT" xml:space="preserve">
+    <value>設定不透明度為 35%。</value>
+  </data>
+  <data name="MenuOp30TT" xml:space="preserve">
+    <value>設定不透明度為 30%。</value>
   </data>
   <data name="MenuOp25TT" xml:space="preserve">
-    <value>設定透明度為 25%。</value>
+    <value>設定不透明度為 25%。</value>
+  </data>
+  <data name="MenuOp20TT" xml:space="preserve">
+    <value>設定不透明度為 20%。</value>
   </data>
   <data name="MenuOp100TT" xml:space="preserve">
     <value>設定為不透明。</value>
@@ -361,7 +400,7 @@
     <value>最小化OnTopReplica至工作列或系統列。</value>
   </data>
   <data name="MenuReduce" xml:space="preserve">
-    <value>最小化</value>
+    <value>顯示視窗 / 最小化到託盤</value>
   </data>
   <data name="AboutLicenseContent" xml:space="preserve">
     <value>Microsoft Reciprocal (MS-RL)</value>
@@ -579,14 +618,53 @@ OnTopReplica 會在下次啟動的時候提醒你。</value>
   <data name="MenuOpen" xml:space="preserve">
     <value>打開</value>
   </data>
+  <data name="MenuOp95" xml:space="preserve">
+    <value>95%</value>
+  </data>
+  <data name="MenuOp90" xml:space="preserve">
+    <value>90%</value>
+  </data>
+  <data name="MenuOp85" xml:space="preserve">
+    <value>85%</value>
+  </data>
+  <data name="MenuOp80" xml:space="preserve">
+    <value>80%</value>
+  </data>
   <data name="MenuOp75" xml:space="preserve">
     <value>75%</value>
+  </data>
+  <data name="MenuOp70" xml:space="preserve">
+    <value>70%</value>
+  </data>
+  <data name="MenuOp65" xml:space="preserve">
+    <value>65%</value>
+  </data>
+  <data name="MenuOp60" xml:space="preserve">
+    <value>60%</value>
+  </data>
+  <data name="MenuOp55" xml:space="preserve">
+    <value>55%</value>
   </data>
   <data name="MenuOp50" xml:space="preserve">
     <value>50%</value>
   </data>
+  <data name="MenuOp45" xml:space="preserve">
+    <value>45%</value>
+  </data>
+  <data name="MenuOp40" xml:space="preserve">
+    <value>40%</value>
+  </data>
+  <data name="MenuOp35" xml:space="preserve">
+    <value>35%</value>
+  </data>
+  <data name="MenuOp30" xml:space="preserve">
+    <value>30%</value>
+  </data>
   <data name="MenuOp25" xml:space="preserve">
     <value>25%</value>
+  </data>
+  <data name="MenuOp20" xml:space="preserve">
+    <value>20%</value>
   </data>
   <data name="MenuFitDouble" xml:space="preserve">
     <value>2:1 兩倍</value>
@@ -638,5 +716,8 @@ OnTopReplica 會在下次啟動的時候提醒你。</value>
   </data>
   <data name="RegionsY" xml:space="preserve">
     <value>Y</value>
+  </data>
+  <data name="SettingsHotKeyClickThrough" xml:space="preserve">
+    <value>穿透模式切換</value>
   </data>
 </root>

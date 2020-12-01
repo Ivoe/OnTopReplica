@@ -7,3 +7,5 @@ src/Installer/output/*
 *.user
 *.suo
 src/packages/*
+src/_ReSharper.Caches/*
+src/UpgradeLog.htm

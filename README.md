@@ -27,13 +27,22 @@ Very useful for monitoring background processes, wrangling with complex multi-wi
 
 ## Installation
 
-Get the [latest version](https://github.com/LorenzCK/OnTopReplica/releases) from the releases section as an MSI&nbsp;installer.
+Get the [latest version](https://github.com/BourbonCrow/OnTopReplica/releases) from the releases section as an MSI&nbsp;installer.
+
+## Default Hotkeys
+
+* Show/Hide the window:
+<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>O</kbd>
+* Clone current window:
+<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>C</kbd>
+* Toggle click through
+<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>L</kbd>
 
 ## Contributions
 
 …are very welcome. Fork away! 🍽️
 
-Submitting [issues](https://github.com/LorenzCK/OnTopReplica/issues) and other feedback is also appreciated.
+Submitting [issues](https://github.com/BourbonCrow/OnTopReplica/issues) and other feedback is also appreciated.
 
 ### Roadmap
 

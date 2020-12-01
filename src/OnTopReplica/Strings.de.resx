@@ -440,23 +440,53 @@ Durchklicken kann später aktiviert werden</value>
   <data name="MenuOp100TT" xml:space="preserve">
     <value>OnTopReplica ist völlig undurchsichtig.</value>
   </data>
-  <data name="MenuOp25" xml:space="preserve">
-    <value>25%</value>
+	<data name="MenuOp95TT" xml:space="preserve">
+    <value>OnTopReplica auf 95% Sichtbarkeit setzen.</value>
   </data>
-  <data name="MenuOp25TT" xml:space="preserve">
-    <value>OnTopReplica auf 25% Sichtbarkeit setzen.</value>
+	<data name="MenuOp90TT" xml:space="preserve">
+    <value>OnTopReplica auf 90% Sichtbarkeit setzen.</value>
   </data>
-  <data name="MenuOp50" xml:space="preserve">
-    <value>50%</value>
+	<data name="MenuOp85TT" xml:space="preserve">
+    <value>OnTopReplica auf 85% Sichtbarkeit setzen.</value>
   </data>
-  <data name="MenuOp50TT" xml:space="preserve">
+	<data name="MenuOp80TT" xml:space="preserve">
+    <value>OnTopReplica auf 80% Sichtbarkeit setzen.</value>
+  </data>
+	<data name="MenuOp75TT" xml:space="preserve">
+    <value>OnTopReplica auf 75% Sichtbarkeit setzen.</value>
+  </data>
+	<data name="MenuOp70TT" xml:space="preserve">
+    <value>OnTopReplica auf 70% Sichtbarkeit setzen.</value>
+  </data>
+	<data name="MenuOp65TT" xml:space="preserve">
+    <value>OnTopReplica auf 65% Sichtbarkeit setzen.</value>
+  </data>
+	<data name="MenuOp60TT" xml:space="preserve">
+    <value>OnTopReplica auf 60% Sichtbarkeit setzen.</value>
+  </data>
+	<data name="MenuOp55TT" xml:space="preserve">
+    <value>OnTopReplica auf 55% Sichtbarkeit setzen.</value>
+  </data>
+	<data name="MenuOp50TT" xml:space="preserve">
     <value>OnTopReplica auf 50% Sichtbarkeit setzen.</value>
   </data>
-  <data name="MenuOp75" xml:space="preserve">
-    <value>75%</value>
+	<data name="MenuOp45TT" xml:space="preserve">
+    <value>OnTopReplica auf 45% Sichtbarkeit setzen.</value>
   </data>
-  <data name="MenuOp75TT" xml:space="preserve">
-    <value>OnTopReplica auf 75% Sichtbarkeit setzen.</value>
+	<data name="MenuOp25TT" xml:space="preserve">
+    <value>OnTopReplica auf 40% Sichtbarkeit setzen.</value>
+  </data>
+	<data name="MenuOp35TT" xml:space="preserve">
+    <value>OnTopReplica auf 35% Sichtbarkeit setzen.</value>
+  </data>
+	<data name="MenuOp30TT" xml:space="preserve">
+    <value>OnTopReplica auf 30% Sichtbarkeit setzen.</value>
+  </data>
+	<data name="MenuOp25TT" xml:space="preserve">
+    <value>OnTopReplica auf 25% Sichtbarkeit setzen.</value>
+  </data>
+	<data name="MenuOp20TT" xml:space="preserve">
+    <value>OnTopReplica auf 20% Sichtbarkeit setzen.</value>
   </data>
   <data name="MenuOpacity" xml:space="preserve">
     <value>Deckkraft</value>

@@ -225,7 +225,19 @@ namespace OnTopReplica.Properties {
                 this["HotKeyShowHide"] = value;
             }
         }
-        
+
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("[CTRL]+[SHIFT]+L")]
+        public string HotKeyClickThrough {
+            get {
+                return ((string)(this["HotKeyClickThrough"]));
+            }
+            set {
+                this["HotKeyClickThrough"] = value;
+            }
+        }
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("Standard")]
